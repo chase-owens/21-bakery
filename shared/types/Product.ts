@@ -5,6 +5,8 @@ export type ProductType =
   | "cookie-class"
   | "event";
 
+export type ProductCategory = "cakes" | "cookies" | "classes" | "events";
+
 export interface Product {
   id: string;
   name: string;
@@ -13,6 +15,7 @@ export interface Product {
   description: string;
   imageKey?: string;
 
+  category: ProductCategory;
   priceType: "fixed" | "starting-at" | "quote";
   price?: number;
   startingPrice?: number;
@@ -29,7 +32,12 @@ export type CakeOptionType = "cake-flavor" | "filling" | "buttercream";
 export interface CakeOption {
   id: string;
   name: string;
+
   type: CakeOptionType;
+
+  color?: string;
+  icon?: string;
+
   active: boolean;
   sortOrder: number;
 }

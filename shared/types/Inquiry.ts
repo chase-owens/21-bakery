@@ -1,3 +1,5 @@
+import { OccasionType } from "./event";
+
 export interface Inquiry {
   id: string;
 
@@ -50,6 +52,8 @@ export interface Inquiry {
   // Agreements
   quoteAcknowledged: boolean;
   rushFeeAcknowledged: boolean;
+
+  occasionTypes?: OccasionType[];
 }
 
 export interface Address {
@@ -66,6 +70,7 @@ export type InquiryStatus =
   | "quoted"
   | "approved"
   | "declined"
-  | "completed";
+  | "completed"
+  | "cancelled";
 
 export type DeliveryMethod = "pickup" | "delivery" | "shipping";
