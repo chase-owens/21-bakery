@@ -34,15 +34,17 @@ export interface Event {
   featured?: boolean;
 }
 
-export interface OccasionCard {
-  id: OccasionType;
-
+export interface Occasion {
   title: string;
   description: string;
 
-  imageKey: string;
+  image: string;
 
   href: string;
+}
+
+export interface OccasionCard extends Occasion {
+  id: OccasionType;
 
   active: boolean;
   sortOrder: number;

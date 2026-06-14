@@ -1,15 +1,27 @@
-import { OccasionCard } from "./event";
+import type { OccasionCard } from "./Event";
+
+export interface Cta {
+  href: string;
+  label: string;
+  variant: "primary" | "secondary" | "text";
+}
+export type Hero = {
+  imageCaption: string;
+  heroImage: string;
+  heroImageAlt: string;
+  title: string;
+  subTitle: string;
+  description: string;
+  ctas: Cta[];
+};
 
 export interface HomePageContent {
-  heroTitle: string;
-  heroSubtitle: string;
+  hero: Hero;
 
-  heroImageKey: string;
+  featuredCakeIds?: string[];
+  featuredCookieIds?: string[];
 
-  featuredCakeIds: string[];
-  featuredCookieIds: string[];
+  featuredReviewIds?: string[];
 
-  featuredReviewIds: string[];
-
-  activeEventTypes: OccasionCard[];
+  activeEventTypes?: OccasionCard[];
 }
