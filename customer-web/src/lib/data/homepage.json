@@ -1,0 +1,72 @@
+{
+	"hero": {
+		"heroImage": "/images/hero.png",
+		"heroImageAlt": "Pirate-themed birthday cake",
+		"imageCaption": "Norman, Oklahoma",
+		"title": "Custom Cakes & Cookies",
+		"subTitle": "for Every Celebration",
+		"description": "Beautifully crafted cakes, cookies, and desserts designed for birthdays, baby showers, weddings, graduations, corporate events, and life's most memorable moments.",
+		"ctas": [
+			{
+				"href": "/cakes",
+				"label": "House Cakes",
+				"variant": "primary"
+			},
+			{
+				"href": "/cookies",
+				"label": "Bespoke Cookies",
+				"variant": "secondary"
+			}
+		]
+	},
+	"signatureCakes": [
+		{
+			"name": "Strawberry Shortcake",
+			"summary": "Moist vanilla bean cake layered with fresh strawberries and vanilla buttercream.",
+			"cakeFlavor": "Vanilla Bean",
+			"fillings": ["Fresh Strawberries"],
+			"toppings": ["Vanilla Buttercream"],
+			"accent": "strawberry"
+		},
+		{
+			"name": "Campfire",
+			"summary": "A rich chocolate cake inspired by classic campfire s’mores flavors.",
+			"cakeFlavor": "Chocolate",
+			"fillings": ["Marshmallow Fluff", "Chocolate Ganache", "Graham Cracker Crumbles"],
+			"toppings": ["Chocolate Buttercream", "Chocolate Ganache Drip", "Graham Cracker Crumbles"],
+			"accent": "chocolate"
+		},
+		{
+			"name": "Everything Biscoff",
+			"summary": "Chocolate cake packed with cookie butter flavor and Lotus cookie crunch.",
+			"cakeFlavor": "Chocolate",
+			"fillings": ["Cookie Butter Ganache", "Lotus Cookie Crumbles"],
+			"toppings": ["Biscoff Buttercream", "Cookie Butter Drip", "Lotus Cookie Crumbles"],
+			"accent": "biscoff"
+		},
+		{
+			"name": "Cookies and Cream",
+			"summary": "A cookies-and-cream lover’s dream loaded with Oreos throughout.",
+			"cakeFlavor": "Cookies & Cream",
+			"fillings": ["Oreo Buttercream", "Chocolate Ganache", "Oreo Crumbles"],
+			"toppings": ["Oreo Buttercream", "Chocolate Ganache Drip", "Whole Oreos"],
+			"accent": "oreo"
+		},
+		{
+			"name": "Lemon Dream",
+			"summary": "Bright citrus flavors balanced with silky lemon buttercream.",
+			"cakeFlavor": "Lemon Velvet",
+			"fillings": ["Fresh Lemon Curd"],
+			"toppings": ["Lemon Buttercream"],
+			"accent": "lemon"
+		},
+		{
+			"name": "Strawberries and Cream",
+			"summary": "Fresh strawberry cake paired with house-made strawberry reduction.",
+			"cakeFlavor": "Strawberry",
+			"fillings": ["Strawberry Reduction"],
+			"toppings": ["Vanilla Buttercream"],
+			"accent": "strawberry"
+		}
+	]
+}

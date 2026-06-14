@@ -1,0 +1,34 @@
+{
+	"occasions": [
+		{
+			"title": "Birthdays",
+			"description": "Custom cakes and cookies designed around your favorite themes.",
+			"image": "/images/ou-birthday.jpg",
+			"href": "/occasions/birthday"
+		},
+		{
+			"title": "Baby Showers",
+			"description": "Beautiful desserts for life's sweetest celebrations.",
+			"image": "/images/baby-shower-2.jpg",
+			"href": "/occasions/baby-shower"
+		},
+		{
+			"title": "Weddings",
+			"description": "Elegant cakes and desserts for your special day.",
+			"image": "/images/wedding-cake.jpg",
+			"href": "/occasions/wedding"
+		},
+		{
+			"title": "Graduations",
+			"description": "Celebrate achievements with personalized desserts.",
+			"image": "/images/graduation.jpg",
+			"href": "/occasions/graduation"
+		},
+		{
+			"title": "Corporate Events",
+			"description": "Branded cookies and desserts for teams and clients.",
+			"image": "/images/corporate.jpg",
+			"href": "/occasions/corporate"
+		}
+	]
+}

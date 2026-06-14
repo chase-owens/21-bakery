@@ -1,0 +1,22 @@
+{
+	"hero": {
+		"heroImage": "/images/hero.png",
+		"heroImageAlt": "Pirate-themed birthday cake",
+		"imageCaption": "Custom Cakes",
+		"title": "Cakes Made for",
+		"subTitle": "the Moment",
+		"description": "From birthdays and baby showers to weddings and graduations, our cakes are designed around your celebration, style, flavors, and guest count.",
+		"ctas": [
+			{
+				"href": "/custom-orders",
+				"label": "Start Your Order",
+				"variant": "primary"
+			},
+			{
+				"href": "#price",
+				"label": "View Pricing",
+				"variant": "secondary"
+			}
+		]
+	}
+}

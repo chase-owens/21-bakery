@@ -1,0 +1,24 @@
+{
+	"steps": [
+		{
+			"number": "01",
+			"title": "Submit Your Inquiry",
+			"description": "Tell us about your event, date, theme, and the dessert ideas."
+		},
+		{
+			"number": "02",
+			"title": "Discuss Details",
+			"description": "We'll reach out to discuss your vision, answer questions, and gather any inspiration photos or event details."
+		},
+		{
+			"number": "03",
+			"title": "Plan Your Order",
+			"description": "Together we'll finalize flavors, design, sizing, quantities, pickup details, and pricing."
+		},
+		{
+			"number": "04",
+			"title": "Celebrate",
+			"description": "Pick up your custom desserts and enjoy a centerpiece designed specifically for your event."
+		}
+	]
+}
