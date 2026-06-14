@@ -1,9 +1,9 @@
-import cakesContent from '$lib/data/cakes/cakes.json';
+import cookiesContent from '$lib/data/cookies/cookies.json';
+import type { CookiesPageContent } from '../../../../shared/types/Cookies';
 
 import type { PageLoad } from './$types';
-import type { CakesPageContent } from '../../../../shared/types/Cakes';
 
-const fallbackContent = cakesContent as unknown as CakesPageContent;
+const fallbackContent = cookiesContent as unknown as CookiesPageContent;
 
 export const load: PageLoad = async () => {
 	if (import.meta.env.VITE_IS_MOCK === 'true') {

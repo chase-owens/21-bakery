@@ -5,7 +5,7 @@
 	import SignatureCakes from '$lib/components/cakes/SignatureCakes.svelte';
 	import Hero from '$lib/components/ui/Hero.svelte';
 	import InquiryModal, { type OrderType } from '$lib/components/ui/inquiryModal.svelte';
-	import type { Hero as HeroI } from '../../../../shared/types/HomePageContent';
+	import type { CakesPageContent } from '../../../../shared/types/Cakes';
 
 	let isInquiryOpen = $state(false);
 	let inquiryType = $state<OrderType>('custom-cake');
@@ -14,7 +14,7 @@
 		inquiryType = type;
 		isInquiryOpen = true;
 	}
-	const { data } = $props();
+	const { data }: { data: CakesPageContent } = $props();
 </script>
 
 <svelte:head>
@@ -26,11 +26,11 @@
 	/>
 </svelte:head>
 
-<Hero {...data.hero as HeroI} />
-<SignatureCakes onCtaClick={() => openInquiry('signature-cake')} />
-<CakeFlavorBuilder onCtaClick={() => openInquiry('custom-cake')} />
-<CakeTastingBox />
-<CustomCakeInfo />
+<Hero {...data.hero} />
+<SignatureCakes {...data.signatures} onCtaClick={() => openInquiry('signature-cake')} />
+<CakeFlavorBuilder {...data.cakeBuilder} onCtaClick={() => openInquiry('custom-cake')} />
+<CakeTastingBox {...data.tastingBox} />
+<CustomCakeInfo {...data.pricingGuide} />
 <InquiryModal
 	open={isInquiryOpen}
 	initialOrderType={inquiryType}
