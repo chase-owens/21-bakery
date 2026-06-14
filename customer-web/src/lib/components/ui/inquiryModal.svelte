@@ -119,6 +119,7 @@
 	let cookieQuantity = $state('');
 
 	let description = $state('');
+	let inspirationFiles = $state<File[]>([]);
 
 	function submitForm() {
 		const hasCustomCake = selectedOrderTypes.includes('custom-cake');
@@ -171,6 +172,14 @@
 		};
 
 		console.log('Inquiry payload:', payload);
+	}
+
+	function handleFiles(event: Event) {
+		const input = event.currentTarget as HTMLInputElement;
+
+		if (!input.files) return;
+
+		inspirationFiles = [...input.files];
 	}
 </script>
 
@@ -308,7 +317,7 @@
 							</label>
 
 							<label class="space-y-2">
-								<span class="text-sm text-muted">American Buttercream</span>
+								<span class="text-sm text-muted">Buttercream Flavor</span>
 
 								<select
 									bind:value={buttercream}
@@ -367,40 +376,6 @@
 					/>
 				</div>
 
-				{#if selectedOrderTypes.includes('custom-cake')}
-					<div class="grid gap-4 sm:grid-cols-3">
-						<select
-							bind:value={cakeFlavor}
-							class="h-10 rounded-md border border-border bg-background p-3"
-						>
-							<option value="">Cake flavor</option>
-							{#each cakeFlavors as flavor}
-								<option value={flavor}>{flavor}</option>
-							{/each}
-						</select>
-
-						<select
-							bind:value={cakeFilling}
-							class="h-10 rounded-md border border-border bg-background p-3"
-						>
-							<option value="">Filling</option>
-							{#each cakeFillings as filling}
-								<option value={filling}>{filling}</option>
-							{/each}
-						</select>
-
-						<select
-							bind:value={buttercream}
-							class="h-10 rounded-md border border-border bg-background p-3"
-						>
-							<option value="">Buttercream</option>
-							{#each buttercreams as option}
-								<option value={option}>{option}</option>
-							{/each}
-						</select>
-					</div>
-				{/if}
-
 				{#if selectedOrderTypes.includes('cookies')}
 					<div class="grid gap-4 sm:grid-cols-2">
 						<input
@@ -423,6 +398,35 @@
 					placeholder="Guest count / servings needed"
 					class="w-full rounded-md border border-border bg-background p-3"
 				/>
+
+				<div class="space-y-2">
+					<label for="inspirationFiles" class="block text-sm font-medium text-primary">
+						Inspiration Photos
+					</label>
+
+					<p class="text-sm text-muted">
+						Upload inspiration photos, invitations, color palettes, or examples of designs you love.
+					</p>
+
+					<input
+						type="file"
+						multiple
+						accept="image/*,.pdf"
+						name="inspirationFiles"
+						onchange={handleFiles}
+						class="input"
+					/>
+
+					{#if inspirationFiles.length}
+						<div class="space-y-1">
+							{#each inspirationFiles as file}
+								<div class="text-sm text-muted">
+									📎 {file.name}
+								</div>
+							{/each}
+						</div>
+					{/if}
+				</div>
 
 				<textarea
 					bind:value={description}
