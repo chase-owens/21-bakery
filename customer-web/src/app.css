@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+	--color-background: #fffaf8;
+	--color-surface: #ffffff;
+
+	--color-primary: #6f1d2a;
+	--color-primary-foreground: #ffffff;
+
+	--color-secondary: #7d2735;
+	--color-secondary-foreground: #ffffff;
+
+	--color-accent: #f3d7c5;
+
+	--color-highlight: #6f1d2a;
+
+	--color-border: #eadfd8;
+
+	--color-foreground: #2b1d1d;
+	--color-muted: #6e5c5c;
+
+	--font-heading: 'Libre Baskerville', serif;
+	--font-body: 'Inter', system-ui, sans-serif;
+
+	--radius-vintage: 0.5rem;
+	--shadow-soft: 0 1px 2px rgb(47, 42, 38, 0.08);
+}
+
+@layer base {
+	html {
+		background-color: var(--color-background);
+	}
+
+	body {
+		@apply bg-background font-body text-foreground antialiased;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-heading text-foreground;
+	}
+
+	a {
+		@apply transition-colors;
+	}
+
+	::selection {
+		background: color-mix(in rgb, var(--color-accent) 45%, white);
+		color: var(--color-foreground);
+	}
+}
+
+@layer components {
+	.page-container {
+		@apply mx-auto max-w-7xl px-4 md:px-6 lg:px-8;
+	}
+
+	.section {
+		@apply py-8 md:py-12;
+	}
+
+	.section-title {
+		font-family: var(--font-heading);
+		color: var(--color-primary);
+	}
+
+	.btn-primary {
+		@apply inline-flex items-center justify-center rounded-md px-6 py-3 font-medium transition-all;
+
+		background: var(--color-primary);
+		color: white;
+
+		box-shadow: 0 4px 12px rgb(112 38 50 / 0.12);
+	}
+	.btn-primary:hover {
+		background: var(--color-secondary);
+	}
+
+	.btn-secondary {
+		@apply inline-flex items-center justify-center rounded-md px-6 py-3 font-medium transition-colors;
+
+		background: transparent;
+		color: var(--color-primary);
+
+		border: 1px solid var(--color-primary);
+	}
+
+	.btn-secondary:hover {
+		background: color-mix(in srgb, var(--color-primary) 8%, transparent);
+	}
+
+	.card {
+		@apply overflow-hidden rounded-lg;
+		background: var(--color-surface);
+		border: 1px solid var(--color-border);
+	}
+}
