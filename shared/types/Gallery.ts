@@ -1,4 +1,5 @@
-import { OccasionType } from "./event";
+import type { OccasionType } from "./Event";
+import type { Hero } from "./HomePageContent";
 
 type GalleryCategory =
   | "birthday"
@@ -16,4 +17,21 @@ type GalleryImage = {
   description?: string;
   featured?: boolean;
   occasionTypes?: OccasionType[];
+};
+
+export type GalleryPageContent = {
+  hero: Hero;
+  images: GalleryImageLean[];
+};
+
+export type GalleryCategoryItem = {
+  id: string;
+  title: string;
+  description?: string;
+  images: GalleryImage[];
+};
+
+export type GalleryImageLean = {
+  src: string;
+  alt: string;
 };

@@ -1,0 +1,158 @@
+{
+	"hero": {
+		"heroImage": "/images/toystory.jpg",
+		"heroImageAlt": "Custom cakes, cookies, and desserts",
+		"imageCaption": "Our Work",
+		"title": "Gallery",
+		"subTitle": "Inspired by Your Celebrations",
+		"description": "Browse a collection of custom cakes, cookies, cupcakes, and desserts created for birthdays, weddings, baby showers, graduations, corporate events, and everything in between.",
+		"ctas": [
+			{
+				"label": "Start Your Order",
+				"href": "/custom-orders",
+				"variant": "primary"
+			}
+		]
+	},
+	"images": [
+		{
+			"src": "/images/baby.jpg",
+			"alt": "Baby shower cookies"
+		},
+		{
+			"src": "/images/baby-2.jpg",
+			"alt": "Baby shower cookies"
+		},
+		{
+			"src": "/images/baby-3.jpg",
+			"alt": "Baby shower cookies"
+		},
+		{
+			"src": "/images/baby-shower.jpg",
+			"alt": "Baby shower cookies"
+		},
+		{
+			"src": "/images/baby-shower-2.jpg",
+			"alt": "Baby shower cookies"
+		},
+
+		{
+			"src": "/images/birthday.jpg",
+			"alt": "Birthday cookies"
+		},
+		{
+			"src": "/images/birthday-2.jpg",
+			"alt": "Birthday cookies"
+		},
+		{
+			"src": "/images/birthday-3.jpg",
+			"alt": "Birthday cookies"
+		},
+		{
+			"src": "/images/birthday-4.jpg",
+			"alt": "Birthday cookies"
+		},
+		{
+			"src": "/images/birthday-5.jpg",
+			"alt": "Birthday cookies"
+		},
+		{
+			"src": "/images/birthday-toy-story.jpg",
+			"alt": "Toy Story birthday cookies"
+		},
+		{
+			"src": "/images/ou-birthday.jpg",
+			"alt": "University themed birthday cookies"
+		},
+
+		{
+			"src": "/images/celebrate.jpg",
+			"alt": "Celebration cookies"
+		},
+		{
+			"src": "/images/celebrate-2.jpg",
+			"alt": "Celebration cookies"
+		},
+		{
+			"src": "/images/celebrate-3.jpg",
+			"alt": "Celebration cookies"
+		},
+		{
+			"src": "/images/celebrate-4.jpg",
+			"alt": "Celebration cookies"
+		},
+
+		{
+			"src": "/images/printed.jpg",
+			"alt": "Printed logo cookies"
+		},
+		{
+			"src": "/images/printed-2.jpg",
+			"alt": "Printed logo cookies"
+		},
+		{
+			"src": "/images/printed-3.jpg",
+			"alt": "Printed logo cookies"
+		},
+		{
+			"src": "/images/printed-4.jpg",
+			"alt": "Printed logo cookies"
+		},
+		{
+			"src": "/images/printed-5.jpg",
+			"alt": "Printed logo cookies"
+		},
+		{
+			"src": "/images/printed-6.jpg",
+			"alt": "Printed logo cookies"
+		},
+
+		{
+			"src": "/images/school.jpg",
+			"alt": "School event cookies"
+		},
+		{
+			"src": "/images/school-2.jpg",
+			"alt": "School event cookies"
+		},
+		{
+			"src": "/images/school-3.jpg",
+			"alt": "School event cookies"
+		},
+		{
+			"src": "/images/sports.jpg",
+			"alt": "Sports themed cookies"
+		},
+		{
+			"src": "/images/sports-2.jpeg",
+			"alt": "Sports themed cookies"
+		},
+		{
+			"src": "/images/sports-3.jpg",
+			"alt": "Sports themed cookies"
+		},
+
+		{
+			"src": "/images/graduation.jpg",
+			"alt": "Graduation cookies"
+		},
+		{
+			"src": "/images/corporate.jpg",
+			"alt": "Corporate event cookies"
+		},
+
+		{
+			"src": "/images/wedding.png",
+			"alt": "Wedding cookies"
+		},
+		{
+			"src": "/images/wedding-cake.jpg",
+			"alt": "Wedding cake"
+		},
+
+		{
+			"src": "/images/cake-tasting-box.webp",
+			"alt": "Cake tasting box"
+		}
+	]
+}

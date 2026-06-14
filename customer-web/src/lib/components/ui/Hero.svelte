@@ -3,6 +3,12 @@
 
 	const { ctas, description, heroImage, heroImageAlt, imageCaption, subTitle, title }: Hero =
 		$props();
+
+	const ctaContainerClass = $derived(
+		ctas.length === 1
+			? 'flex justify-center lg:justify-start cursor-pointer'
+			: 'grid sm:grid-cols-2 lg:max-w-md'
+	);
 </script>
 
 <section class="section pt-8 md:pt-16">
@@ -30,10 +36,19 @@
 					{description}
 				</p>
 				{#if ctas.length > 0}
-					<div class="grid gap-3 sm:grid-cols-2 lg:max-w-md">
-						{#each ctas as { href, label, variant }}
-							{@const className = variant === 'primary' ? 'btn-primary' : 'btn-secondary'}
-							<a {href} class={className}>{label}</a>
+					<div class={ctaContainerClass}>
+						{#each ctas as cta}
+							{@const className = cta.variant === 'primary' ? 'btn-primary' : 'btn-secondary'}
+
+							{#if 'onCtaClick' in cta}
+								<button type="button" class={className} onclick={cta.onCtaClick}>
+									{cta.label}
+								</button>
+							{:else}
+								<a href={cta.href} class={className}>
+									{cta.label}
+								</a>
+							{/if}
 						{/each}
 					</div>
 				{/if}

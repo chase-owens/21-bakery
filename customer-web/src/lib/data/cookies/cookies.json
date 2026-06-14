@@ -1,0 +1,161 @@
+{
+	"hero": {
+		"heroImage": "/images/birthday.jpg",
+		"heroImageAlt": "Decorated custom sugar cookies",
+		"imageCaption": "Custom Cookies",
+		"title": "Sugar Cookies",
+		"subTitle": "Made for Every Celebration",
+		"description": "Custom decorated sugar cookies designed around your event, theme, colors, and style. Perfect for birthdays, baby showers, graduations, weddings, holidays, and corporate events.",
+		"ctas": [
+			{
+				"label": "Request Custom Cookies",
+				"variant": "primary"
+			}
+		]
+	},
+	"gallerySections": [
+		{
+			"id": "baby",
+			"title": "Baby",
+			"description": "Sweet cookie sets for baby showers, gender reveals, and welcome baby celebrations.",
+			"images": [
+				{
+					"src": "/images/baby.jpg",
+					"alt": "Baby cookie set"
+				},
+				{
+					"src": "/images/baby-shower.jpg",
+					"alt": "Baby cookie set"
+				},
+				{
+					"src": "/images/baby-2.jpg",
+					"alt": "Baby cookie set"
+				},
+				{
+					"src": "/images/baby-3.jpg",
+					"alt": "Baby cookie set"
+				}
+			]
+		},
+		{
+			"id": "birthday",
+			"title": "Birthday",
+			"description": "Custom birthday cookies for kids, adults, milestone birthdays, and themed parties.",
+			"images": [
+				{
+					"src": "/images/birthday-toy-story.jpg",
+					"alt": "Birthday cookie set"
+				},
+				{
+					"src": "/images/birthday.jpg",
+					"alt": "Birthday cookie set"
+				},
+				{
+					"src": "/images/birthday-3.jpg",
+					"alt": "Birthday cookie set"
+				},
+				{
+					"src": "/images/birthday-4.jpg",
+					"alt": "Birthday cookie set"
+				},
+				{
+					"src": "/images/birthday-5.jpg",
+					"alt": "Birthday cookie set"
+				}
+			]
+		},
+		{
+			"id": "celebration",
+			"title": "Celebration",
+			"description": "Cookies for graduations, engagements, bridal showers, anniversaries, and special occasions.",
+			"images": [
+				{
+					"src": "/images/wedding.png",
+					"alt": "Celebration cookie set"
+				},
+				{
+					"src": "/images/celebrate.jpg",
+					"alt": "Celebration cookie set"
+				},
+				{
+					"src": "/images/celebrate-2.jpg",
+					"alt": "Celebration cookie set"
+				},
+				{
+					"src": "/images/celebrate-3.jpg",
+					"alt": "Celebration cookie set"
+				},
+				{
+					"src": "/images/celebrate-4.jpg",
+					"alt": "Celebration cookie set"
+				}
+			]
+		},
+		{
+			"id": "printed-cookies",
+			"title": "Printed Cookies",
+			"description": "Logo cookies, branded events, client gifts, grand openings, and corporate celebrations.",
+			"images": [
+				{
+					"src": "/images/printed.jpg",
+					"alt": "Printed logo cookie"
+				},
+				{
+					"src": "/images/printed-2.jpg",
+					"alt": "Printed logo cookie"
+				},
+				{
+					"src": "/images/printed-3.jpg",
+					"alt": "Printed logo cookie"
+				},
+				{
+					"src": "/images/printed-4.jpg",
+					"alt": "Printed logo cookie"
+				},
+				{
+					"src": "/images/printed-5.jpg",
+					"alt": "Printed logo cookie"
+				},
+				{
+					"src": "/images/printed-6.jpg",
+					"alt": "Printed logo cookie"
+				}
+			]
+		},
+		{
+			"id": "school-sports",
+			"title": "School + Sports",
+			"description": "Custom cookies for school events, team celebrations, graduations, senior nights, and sports parties.",
+			"images": [
+				{
+					"src": "/images/school.jpg",
+					"alt": "School and sports cookie set"
+				},
+				{
+					"src": "/images/corporate.jpg",
+					"alt": "School and sports cookie set"
+				},
+				{
+					"src": "/images/school-2.jpg",
+					"alt": "School and sports cookie set"
+				},
+				{
+					"src": "/images/school-3.jpg",
+					"alt": "School and sports cookie set"
+				},
+				{
+					"src": "/images/sports.jpg",
+					"alt": "School and sports cookie set"
+				},
+				{
+					"src": "/images/sports-2.jpeg",
+					"alt": "School and sports cookie set"
+				},
+				{
+					"src": "/images/sports-3.jpg",
+					"alt": "School and sports cookie set"
+				}
+			]
+		}
+	]
+}

@@ -18,5 +18,319 @@
 				"variant": "secondary"
 			}
 		]
+	},
+	"cakeBuilder": {
+		"ctaLabel": "Request a Custom Cake ",
+		"smallTitle": "Build Your Cake",
+		"title": "Choose Your Flavors",
+		"description": "Mix and match cake flavors, fillings, and buttercream options to create a custom cake that fits your celebration.",
+		"groups": [
+			{
+				"title": "Cake Flavors",
+				"description": "Choose the foundation of your cake.",
+				"options": [
+					{
+						"id": "vanilla-bean",
+						"label": "Vanilla Bean",
+						"className": "bg-yellow-50 text-yellow-950 border-yellow-200"
+					},
+					{
+						"id": "chocolate",
+						"label": "Chocolate",
+						"className": "bg-amber-100 text-amber-950 border-amber-300"
+					},
+					{
+						"id": "lemon-velvet",
+						"label": "Lemon Velvet",
+						"className": "bg-yellow-100 text-yellow-950 border-yellow-300"
+					},
+					{
+						"id": "cinnamon-roll",
+						"label": "Cinnamon Roll",
+						"className": "bg-orange-100 text-orange-950 border-orange-300"
+					},
+					{
+						"id": "almond",
+						"label": "Almond",
+						"className": "bg-stone-100 text-stone-900 border-stone-300"
+					},
+					{
+						"id": "banana",
+						"label": "Banana",
+						"className": "bg-yellow-50 text-yellow-950 border-yellow-200"
+					},
+					{
+						"id": "lemon-blueberry",
+						"label": "Lemon Blueberry",
+						"className": "bg-indigo-100 text-indigo-950 border-indigo-200"
+					},
+					{
+						"id": "strawberry",
+						"label": "Strawberry",
+						"className": "bg-rose-100 text-rose-900 border-rose-200"
+					},
+					{
+						"id": "birthday-cake",
+						"label": "Birthday Cake",
+						"className": "bg-purple-100 text-purple-900 border-purple-200"
+					},
+					{
+						"id": "cookies-and-cream",
+						"label": "Cookies & Cream",
+						"className": "bg-slate-100 text-slate-800 border-slate-300"
+					},
+					{
+						"id": "marble",
+						"label": "Marble",
+						"className": "bg-neutral-100 text-neutral-900 border-neutral-300"
+					}
+				]
+			},
+			{
+				"title": "Fillings",
+				"description": "Add fruit, ganache, cookie butter, caramel, or crunch.",
+				"options": [
+					{
+						"id": "fresh-strawberries",
+						"label": "Fresh Strawberries",
+						"className": "bg-pink-100 text-pink-900 border-pink-200"
+					},
+					{
+						"id": "chocolate-ganache",
+						"label": "Chocolate Ganache",
+						"className": "bg-stone-200 text-stone-950 border-stone-300"
+					},
+					{
+						"id": "oreos",
+						"label": "Oreo's",
+						"className": "bg-slate-100 text-slate-800 border-slate-300"
+					},
+					{
+						"id": "fresh-raspberries",
+						"label": "Fresh Raspberries",
+						"className": "bg-rose-100 text-rose-900 border-rose-200"
+					},
+					{
+						"id": "biscoff-cookie-butter",
+						"label": "Biscoff Cookie Butter",
+						"className": "bg-orange-100 text-orange-950 border-orange-300"
+					},
+					{
+						"id": "biscoff-cookies",
+						"label": "Biscoff Cookies",
+						"className": "bg-orange-50 text-orange-950 border-orange-200"
+					},
+					{
+						"id": "snickers",
+						"label": "Snickers",
+						"className": "bg-amber-100 text-amber-950 border-amber-300"
+					},
+					{
+						"id": "strawberry-reduction",
+						"label": "Strawberry Reduction",
+						"className": "bg-rose-200 text-rose-950 border-rose-300"
+					},
+					{
+						"id": "raspberry-reduction",
+						"label": "Raspberry Reduction",
+						"className": "bg-pink-200 text-pink-950 border-pink-300"
+					},
+					{
+						"id": "reeses",
+						"label": "Reese's",
+						"className": "bg-orange-100 text-orange-950 border-orange-300"
+					},
+					{
+						"id": "salted-caramel",
+						"label": "Salted Caramel",
+						"className": "bg-amber-100 text-amber-950 border-amber-300"
+					}
+				]
+			},
+			{
+				"title": "Buttercream",
+				"description": "Finish with a buttercream that ties it all together.",
+				"options": [
+					{
+						"id": "vanilla-buttercream",
+						"label": "Vanilla",
+						"className": "bg-amber-50 text-amber-950 border-amber-200"
+					},
+					{
+						"id": "chocolate-buttercream",
+						"label": "Chocolate",
+						"className": "bg-stone-300 text-stone-950 border-stone-400"
+					},
+					{
+						"id": "lemon-buttercream",
+						"label": "Lemon",
+						"className": "bg-yellow-50 text-yellow-950 border-yellow-200"
+					},
+					{
+						"id": "biscoff-buttercream",
+						"label": "Biscoff",
+						"className": "bg-orange-100 text-orange-950 border-orange-300"
+					},
+					{
+						"id": "oreo-buttercream",
+						"label": "Oreo",
+						"className": "bg-slate-100 text-slate-800 border-slate-300"
+					},
+					{
+						"id": "cinnamon-roll-buttercream",
+						"label": "Cinnamon Roll",
+						"className": "bg-orange-100 text-orange-950 border-orange-300"
+					},
+					{
+						"id": "peanut-butter-buttercream",
+						"label": "Peanut Butter",
+						"className": "bg-amber-100 text-amber-950 border-amber-300"
+					},
+					{
+						"id": "almond-buttercream",
+						"label": "Almond",
+						"className": "bg-stone-100 text-stone-900 border-stone-300"
+					}
+				]
+			}
+		]
+	},
+	"pricingGuide": {
+		"title": "Cake Pricing Guide",
+		"description": "Every custom cake is quoted based on size, servings, flavors, design detail, decorations, and specialty elements. The prices below are starting points to help you plan your celebration.",
+		"tiers": [
+			{
+				"title": "6\" Round Cake",
+				"price": "$125+",
+				"serves": "Serves approximately 10–12 guests"
+			},
+			{
+				"title": "8\" Round Cake",
+				"price": "$165+",
+				"serves": "Serves approximately 20–24 guests"
+			},
+			{
+				"title": "Tiered Cakes",
+				"price": "$275+",
+				"serves": "Starting size serves approximately 36 guest"
+			},
+			{
+				"title": "Cupcakes + Cake Sickles",
+				"price": "$50/dozen"
+			}
+		]
+	},
+	"signatures": {
+		"ctaLabel": "Request a Signature Cake",
+		"smallTitle": "House Favorites",
+		"title": "Signature Cakes",
+		"descirption": "Choose one of our signature flavor combinations or use them as inspiration for your own custom cake.",
+		"ingredientStyles": {
+			"vanilla-bean": "bg-yellow-50 text-yellow-950 border-yellow-200",
+			"fresh-strawberries": "bg-pink-100 text-pink-900 border-pink-200",
+			"vanilla-buttercream": "bg-amber-50 text-amber-950 border-amber-200",
+			"chocolate": "bg-amber-100 text-amber-950 border-amber-300",
+			"marshmallow-fluff": "bg-slate-50 text-slate-700 border-slate-200",
+			"chocolate-ganache": "bg-stone-200 text-stone-950 border-stone-300",
+			"graham-cracker-crumbles": "bg-orange-100 text-orange-950 border-orange-200",
+			"chocolate-buttercream": "bg-stone-300 text-stone-950 border-stone-400",
+			"chocolate-ganache-drip": "bg-stone-400 text-stone-950 border-stone-500",
+			"cookie-butter-ganache": "bg-orange-100 text-orange-950 border-orange-300",
+			"lotus-cookie-crumbles": "bg-orange-50 text-orange-950 border-orange-200",
+			"biscoff-buttercream": "bg-orange-100 text-orange-950 border-orange-300",
+			"cookie-butter-drip": "bg-orange-200 text-orange-950 border-orange-300",
+			"cookies-and-cream": "bg-slate-100 text-slate-800 border-slate-300",
+			"oreo-buttercream": "bg-slate-100 text-slate-800 border-slate-300",
+			"oreo-crumbles": "bg-zinc-200 text-zinc-900 border-zinc-300",
+			"whole-oreos": "bg-zinc-300 text-zinc-950 border-zinc-400",
+			"lemon-velvet": "bg-yellow-100 text-yellow-950 border-yellow-300",
+			"lemon-curd": "bg-yellow-200 text-yellow-950 border-yellow-300",
+			"lemon-buttercream": "bg-yellow-50 text-yellow-950 border-yellow-200",
+			"strawberry": "bg-rose-100 text-rose-900 border-rose-200",
+			"strawberry-reduction": "bg-rose-200 text-rose-950 border-rose-300"
+		},
+		"signatureCakes": [
+			{
+				"name": "Strawberry Shortcake",
+				"summary": "Moist vanilla bean cake layered with fresh strawberries and vanilla buttercream.",
+				"cakeFlavor": { "id": "vanilla-bean", "label": "Vanilla Bean" },
+				"fillings": [{ "id": "fresh-strawberries", "label": "Fresh Strawberries" }],
+				"toppings": [{ "id": "vanilla-buttercream", "label": "Vanilla Buttercream" }]
+			},
+			{
+				"name": "Campfire",
+				"summary": "A rich chocolate cake inspired by classic campfire s’mores flavors.",
+				"cakeFlavor": { "id": "chocolate", "label": "Chocolate" },
+				"fillings": [
+					{ "id": "marshmallow-fluff", "label": "Marshmallow Fluff" },
+					{ "id": "chocolate-ganache", "label": "Chocolate Ganache" },
+					{ "id": "graham-cracker-crumbles", "label": "Graham Cracker Crumbles" }
+				],
+				"toppings": [
+					{ "id": "chocolate-buttercream", "label": "Chocolate Buttercream" },
+					{ "id": "chocolate-ganache-drip", "label": "Chocolate Ganache Drip" },
+					{ "id": "graham-cracker-crumbles", "label": "Graham Cracker Crumbles" }
+				]
+			},
+			{
+				"name": "Everything Biscoff",
+				"summary": "Chocolate cake packed with cookie butter flavor and Lotus cookie crunch.",
+				"cakeFlavor": { "id": "chocolate", "label": "Chocolate" },
+				"fillings": [
+					{ "id": "cookie-butter-ganache", "label": "Cookie Butter Ganache" },
+					{ "id": "lotus-cookie-crumbles", "label": "Lotus Cookie Crumbles" }
+				],
+				"toppings": [
+					{ "id": "biscoff-buttercream", "label": "Biscoff Buttercream" },
+					{ "id": "cookie-butter-drip", "label": "Cookie Butter Drip" },
+					{ "id": "lotus-cookie-crumbles", "label": "Lotus Cookie Crumbles" }
+				]
+			},
+			{
+				"name": "Cookies and Cream",
+				"summary": "A cookies-and-cream lover’s dream loaded with Oreos throughout.",
+				"cakeFlavor": { "id": "cookies-and-cream", "label": "Cookies & Cream" },
+				"fillings": [
+					{ "id": "oreo-buttercream", "label": "Oreo Buttercream" },
+					{ "id": "chocolate-ganache", "label": "Chocolate Ganache" },
+					{ "id": "oreo-crumbles", "label": "Oreo Crumbles" }
+				],
+				"toppings": [
+					{ "id": "oreo-buttercream", "label": "Oreo Buttercream" },
+					{ "id": "chocolate-ganache-drip", "label": "Chocolate Ganache Drip" },
+					{ "id": "whole-oreos", "label": "Whole Oreos" }
+				]
+			},
+			{
+				"name": "Lemon Dream",
+				"summary": "Bright citrus flavors balanced with silky lemon buttercream.",
+				"cakeFlavor": { "id": "lemon-velvet", "label": "Lemon Velvet" },
+				"fillings": [{ "id": "lemon-curd", "label": "Fresh Lemon Curd" }],
+				"toppings": [{ "id": "lemon-buttercream", "label": "Lemon Buttercream" }]
+			},
+			{
+				"name": "Strawberries and Cream",
+				"summary": "Fresh strawberry cake paired with house-made strawberry reduction.",
+				"cakeFlavor": { "id": "strawberry", "label": "Strawberry" },
+				"fillings": [{ "id": "strawberry-reduction", "label": "Strawberry Reduction" }],
+				"toppings": [{ "id": "vanilla-buttercream", "label": "Vanilla Buttercream" }]
+			}
+		]
+	},
+	"tastingBox": {
+		"title": "Not Sure Which Flavors To Choose?",
+		"smallTitle": "ake Tasting Box",
+		"description": "Sample our most popular cake, filling, and buttercream combinations before deciding on your custom cake",
+		"image": "/images/cake-tasting-box.webp",
+		"included": {
+			"title": "What's Included",
+			"items": [
+				"🍰 Signature cake flavors",
+				"🧁 Buttercream pairings",
+				"🍓 Popular fillings",
+				"✨ Build your favorite combinations at home"
+			]
+		},
+		"cta": { "href": "/cake-tasting", "label": "Order a Tasting Box" }
 	}
 }
