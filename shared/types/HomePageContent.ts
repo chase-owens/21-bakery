@@ -24,8 +24,17 @@ export type Hero = {
   ctas: HeroCta[];
 };
 
+type FeaturedDessert = {
+  title: string;
+  description: string;
+  image: string;
+  price?: string;
+  ctaLabel: string;
+  ctaHref: string;
+};
 export interface HomePageContent {
   hero: Hero;
+  featuredDesserts: FeaturedDessert[];
 
   featuredCakeIds?: string[];
   featuredCookieIds?: string[];

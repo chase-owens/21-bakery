@@ -1,3 +1,5 @@
+import type { Hero } from "./HomePageContent";
+
 export type EventType =
   | "cookie-class"
   | "cake-class"
@@ -43,6 +45,13 @@ export interface Occasion {
   href: string;
 }
 
+type PerfectForSection = {
+  title: string;
+  items: {
+    title: string;
+    description: string;
+  }[];
+};
 export interface OccasionCard extends Occasion {
   id: OccasionType;
 
@@ -58,3 +67,23 @@ export type OccasionType =
   | "corporate"
   | "holiday"
   | "general";
+
+export type EventsPageContent = {
+  hero: Hero;
+  included: {
+    title: string;
+    items: {
+      title: string;
+      description: string;
+    }[];
+  };
+  perfectFor: PerfectForSection;
+  sections: {
+    title: string;
+    description: string;
+    image: string;
+    ctaLabel: string;
+    inquiryType: "private-class" | "corporate-class";
+    imagePosition?: "left" | "right";
+  }[];
+};
