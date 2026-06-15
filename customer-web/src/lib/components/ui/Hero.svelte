@@ -7,7 +7,7 @@
 	const ctaContainerClass = $derived(
 		ctas.length === 1
 			? 'flex justify-center lg:justify-start cursor-pointer'
-			: 'grid sm:grid-cols-2 lg:max-w-md'
+			: 'grid sm:grid-cols-2 lg:max-w-md gap-4'
 	);
 </script>
 
@@ -38,7 +38,10 @@
 				{#if ctas.length > 0}
 					<div class={ctaContainerClass}>
 						{#each ctas as cta}
-							{@const className = cta.variant === 'primary' ? 'btn-primary' : 'btn-secondary'}
+							{@const className =
+								cta.variant === 'primary'
+									? 'btn-primary text-center cursor-pointer'
+									: 'btn-secondary cursor-pointer'}
 
 							{#if 'onCtaClick' in cta}
 								<button type="button" class={className} onclick={cta.onCtaClick}>

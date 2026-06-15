@@ -1,0 +1,89 @@
+{
+	"hero": {
+		"heroImage": "/images/group-class.jpg",
+		"heroImageAlt": "Guests decorating sugar cookies during a cookie decorating class",
+		"imageCaption": "Cookie Decorating Classes",
+		"title": "Cookie Classes & Events",
+		"subTitle": "Learn, Create, and Celebrate Together",
+		"description": "Join 21 Bakehouse for interactive cookie decorating classes, private parties, and corporate events. Whether you're learning the basics or refining your decorating skills, we'll provide everything you need to create beautiful cookies and lasting memories.",
+		"ctas": [
+			{
+				"label": "View Upcoming Classes",
+				"variant": "primary"
+			},
+			{
+				"label": "Book a Private Event",
+				"variant": "secondary"
+			}
+		]
+	},
+	"included": {
+		"title": "What's Included?",
+		"items": [
+			{
+				"title": "Take-Home Tools",
+				"description": "We provide the essential decorating tools you need during class and tips for recreating your designs at home. You'll also receive our favorite sugar cookie and icing recipes."
+			},
+			{
+				"title": "Baked Cookies + Icing",
+				"description": "We handle all of the baking and preparation. Simply show up ready to decorate with freshly baked cookies, royal icing, sprinkles, and decorating supplies."
+			},
+			{
+				"title": "The Works",
+				"description": "Learn decorating fundamentals including icing consistency, outlining, flooding, layering techniques, color mixing, and piping skills while creating cookies you'll be proud to share."
+			}
+		]
+	},
+	"sections": [
+		{
+			"title": "Private Classes",
+			"description": "Celebrate birthdays, bridal showers, baby showers, girls' nights, or any special occasion with a private cookie decorating experience. We'll help create a memorable event tailored to your group.",
+			"image": "/images/group-class-2.jpg",
+			"ctaLabel": "Book a Private Class",
+			"inquiryType": "private-class",
+			"imagePosition": "right"
+		},
+		{
+			"title": "Corporate Classes",
+			"description": "Looking for a unique team-building activity? Our corporate cookie decorating classes combine creativity, collaboration, and fun while giving your team a hands-on experience they'll remember.",
+			"image": "/images/group-class.jpg",
+			"ctaLabel": "Inquire About Corporate Classes",
+			"inquiryType": "corporate-class",
+			"imagePosition": "left"
+		}
+	],
+	"upcomingClasses": {
+		"title": "Upcoming Classes",
+		"description": "Public cookie decorating classes will be listed here when available.",
+		"emptyStateMessage": "No upcoming classes are currently scheduled. Check back soon or contact us about a private event."
+	},
+	"perfectFor": {
+		"title": "Perfect For",
+		"items": [
+			{
+				"title": "Birthday Parties",
+				"description": "Celebrate with a hands-on cookie decorating experience everyone can enjoy."
+			},
+			{
+				"title": "Baby Showers",
+				"description": "Create sweet memories while decorating custom cookies with friends and family."
+			},
+			{
+				"title": "Bridal Showers",
+				"description": "A fun and unique activity for brides-to-be and their guests."
+			},
+			{
+				"title": "Team Building",
+				"description": "Encourage creativity, collaboration, and connection in a relaxed setting."
+			},
+			{
+				"title": "Church Groups",
+				"description": "Perfect for fellowship events, youth groups, and community gatherings."
+			},
+			{
+				"title": "Girls' Nights",
+				"description": "Gather your friends for a fun evening of cookies, icing, and laughter."
+			}
+		]
+	}
+}

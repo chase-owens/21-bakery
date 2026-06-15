@@ -1,4 +1,6 @@
 import homepageContent from '$lib/data/homepage.json';
+import occasionsData from '../../src/lib/data/occasions.json';
+import howItWorksData from '../../src/lib/data/how-it-works.json';
 
 import type { PageLoad } from './$types';
 import type { HomePageContent } from '../../../shared/types/HomePageContent';
@@ -7,7 +9,12 @@ const fallbackContent = homepageContent as unknown as HomePageContent;
 
 export const load: PageLoad = async () => {
 	if (import.meta.env.VITE_IS_MOCK === 'true') {
-		return fallbackContent;
+		return {
+			hero: fallbackContent.hero,
+			featuredDesserts: fallbackContent.featuredDesserts,
+			occasions: occasionsData.occasions,
+			steps: howItWorksData.steps
+		};
 	}
 
 	// try {
@@ -22,5 +29,10 @@ export const load: PageLoad = async () => {
 	// 	throw error(500, `Content failed to load ${err}`);
 	// }
 
-	return fallbackContent;
+	return {
+		hero: fallbackContent.hero,
+		featuredDesserts: fallbackContent.featuredDesserts,
+		occasions: occasionsData.occasions,
+		steps: howItWorksData.steps
+	};
 };
