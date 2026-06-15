@@ -1,7 +1,12 @@
 <script lang="ts">
 	import type { TastingBoxSection } from '../../../../../shared/types/Cakes';
 
-	const { cta, description, image, included, smallTitle, title }: TastingBoxSection = $props();
+	interface TastingBoxProps extends TastingBoxSection {
+		onCtaClick: () => void;
+	}
+
+	const { cta, description, image, included, onCtaClick, smallTitle, title }: TastingBoxProps =
+		$props();
 </script>
 
 <section class="section bg-surface">
@@ -29,7 +34,7 @@
 					</ul>
 				</div>
 
-				<a href={cta.href} class="btn-primary m-auto">{cta.label}</a>
+				<button onclick={onCtaClick} class="btn-primary m-auto">{cta.label}</button>
 			</div>
 		</div>
 	</div>
