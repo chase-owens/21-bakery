@@ -1,12 +1,12 @@
 // import { error } from '@sveltejs/kit';
 // import type { Occasion } from '../../../shared/types/Event';
-import occasionsData from '../../src/lib/data/occasions.json';
-import howItWorksData from '../../src/lib/data/how-it-works.json';
+// import occasionsData from '../../src/lib/data/occasions.json';
+// import howItWorksData from '../../src/lib/data/how-it-works.json';
 
-import type { LayoutLoad } from './$types';
+// import type { LayoutLoad } from './$types';
 
-export const ssr = false;
-export const prerender = 'auto';
+// export const ssr = false;
+// export const prerender = 'auto';
 
 // type OccasionsResponse = {
 // 	occasions: Occasion[];
@@ -34,13 +34,13 @@ export const prerender = 'auto';
 // 	return (await res.json()) as T;
 // }
 
-export const load: LayoutLoad = async () => {
-	// const [occasions] = await Promise.all([
-	// 	fetchJson<OccasionsResponse>(fetch, '/data/occasions.json')
-	// ]);
+// export const load: LayoutLoad = async () => {
+// 	const [occasions] = await Promise.all([
+// 		fetchJson<OccasionsResponse>(fetch, '/data/occasions.json')
+// 	]);
 
-	return {
-		occasions: occasionsData.occasions,
-		steps: howItWorksData.steps
-	};
-};
+// 	return {
+// 		occasions: occasionsData.occasions,
+// 		steps: howItWorksData.steps
+// 	};
+// };

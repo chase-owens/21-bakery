@@ -122,8 +122,24 @@
 	</main>
 
 	<footer class="border-t border-border bg-surface">
-		<div class="page-container py-8 text-sm text-foreground/70">
-			© 2026 21 Bakehouse. Custom cakes, cookies, and celebrations.
+		<div class="page-container py-8">
+			<div class="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
+				<div>
+					<h3 class="font-heading text-lg text-foreground">21 Bakehouse</h3>
+					<p class="mt-2 text-sm text-foreground/70">Custom cakes, cookies, and celebrations.</p>
+				</div>
+
+				<nav class="flex flex-wrap gap-4 text-sm">
+					<a href="/cookies" class="hover:text-primary">Cookies</a>
+					<a href="/cakes" class="hover:text-primary">Cakes</a>
+					<a href="/gallery" class="hover:text-primary">Gallery</a>
+					<a href="/events" class="hover:text-primary">Events</a>
+				</nav>
+			</div>
+
+			<div class="mt-6 border-t border-border pt-4 text-sm text-foreground/70">
+				© 2026 21 Bakehouse. All rights reserved.
+			</div>
 		</div>
 	</footer>
 </div>

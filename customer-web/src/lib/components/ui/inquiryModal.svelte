@@ -5,6 +5,9 @@
 		| 'cookies'
 		| 'cupcakes'
 		| 'chocolate-covered-treats'
+		| 'featured-dessert'
+		| 'private-class'
+		| 'corporate-class'
 		| 'other';
 
 	type DeliveryMethod = 'pickup' | 'delivery' | 'shipping';
@@ -30,6 +33,8 @@
 		{ value: 'signature-cake', label: 'Signature Cake' },
 		{ value: 'cookies', label: 'Decorated Sugar Cookies' },
 		{ value: 'cupcakes', label: 'Cupcakes' },
+		{ value: 'private-class', label: 'Private Class' },
+		{ value: 'corporate-class', label: 'Corporate Class' },
 		{ value: 'other', label: 'Something Else' }
 	] as const;
 

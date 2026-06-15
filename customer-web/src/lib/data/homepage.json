@@ -19,6 +19,15 @@
 			}
 		]
 	},
+	"featuredDesserts": [
+		{
+			"title": "Birthday Cookie Cake",
+			"description": "Our oversized chocolate chip cookie cake topped with vanilla buttercream rosettes and rainbow sprinkles. Perfect for birthdays, celebrations, or just because.",
+			"price": "Starting at $35",
+			"image": "/images/gallery-20.jpg",
+			"buttonText": "Request This Dessert"
+		}
+	],
 	"signatureCakes": [
 		{
 			"name": "Strawberry Shortcake",
