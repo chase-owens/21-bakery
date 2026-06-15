@@ -1,4 +1,4 @@
-import events from '$lib/data/events/events.json';
+import events from '$lib/data/events/Events.json';
 import type { EventsPageContent } from '../../../../shared/types/Event';
 
 import type { PageLoad } from './$types';
